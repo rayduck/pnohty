@@ -1,6 +1,148 @@
-# pnohty
-Pnohty Python play for 3X5+3 split keyboards
+![pnohty@4x](https://user-images.githubusercontent.com/16619392/147719604-40cfd0fa-5fde-4c3e-927e-486d6c296122.png)
+
+# Pnohty
+
+An optimized keyboard layout for people who like Python, Vim, and tiny split keyboards ;)
+
+## Features
+
+- 3X5+3, but compatible with 34 key (2 thumb keys each side) and even 32 keys (no top row pinky keys, W+P=Q).
+- Coding usage priorised. Symbols and numbers are within reach. Bigrams are easy to roll.
+- Combos for mods. No fiddly settings and timing issues with homerow mods. No flow breaking holds with autoshift or hold-taps in general.
+- Vim navigation layer, activated with the right thumb and pinky on home positions.
+- Leaves 12 keys unassigned for your favourite shortcuts. 4 of these positions are quite nice.
+
+## Design principles
+### It should feel real good! Most comfortable positions reserved for frequenters
+
+- Incorporates additional analysis specific to tiny split keyboards.
+- Space or Enter, which way does it swing? Common bigrams are respected.
+
+### Was that too fast? Time is not of the essence
+
+- Eschew functionalities which require precise timings (or waiting) that may otherwise misfire.
+- No homerow mods!
+- Low frequency bigrams in comfortable positions are used for combos instead.
+
+### **P**ython and **V**im: a match made in heaven
+
+- A base of Colemak-DH mixed with fresh Python, plus a splash of Vim.
+- But all are welcome! If you have a more deviant use case, feel free to do...
+  
+### What it is that we do ;)
+
+- The vanilla version is perfectly good on its own, but there are 12 open slots in the middle for your favourite things (shortcuts, rgb control, etc), 4 of which are quite comfy.
+- Swap em! If you use other programming languages, a good place to start is switching `{ }` and `[ ]`. The heavy use of brackets over braces is quite peculiar of Python.
+- Really want to hit that spot? Open slots make it easy to rearrange your layout.
+
+### Size doesn't matter
+
+- Pnohty is compatible with most split keyboards. In its most concise configuration, only 32 keys are needed. This has no top row pinky keys and only two thumb keys per side.
+- With more keys, some of the combo mods can move onto extra thumb keys.
+
+## Hesitant to join in the fun?
+### Why no homerow mods?
+
+- See [Callum Oakley](https://github.com/qmk/qmk_firmware/tree/master/users/callum)
+- See [precondition](https://precondition.github.io/home-row-mods)'s definitive guide on home 
+row mods, if you would like to make it work.
+
+### Why no Callum mods?
+
+- Callum style mods obviates the use of mod-tap, thats great!
+- However, mods take up 4 of the best spots on each layer.
+- That's 8 symbols evicted from the homerow!
+
+### Hasn't Precondition ruled out alternatives to home row mods?
+
+- Not quite. It was said that sticky combo home row mods are more prone than home row mods for misfires. But misfires are next to impossible for uncommon combination of letters that are nonetheless easy to type!
+
+- Take W+F, the combo for Shift, for example. How many words containing WF or FW can you think of?
+- It may just take you quite a while, since it is a very rare bigram.
+- There are the words awful, lawful, newfound, halfway, etc.
+- [Bigram based on google corpus](https://gist.github.com/lydell/c439049abac2c9226e53) and my testing reveals that W+F ranks 259 out of 351 total 2 letter combinations. For any two letters typed, it will be W and F 0.00000018% of the time! 
+- The number is 0.00000027% for the Python corpus, presumably because some acronyms may involve fw, e.g. firewall, firmware. 
+- X+C is ranked 193 out of 351. Note that distribution of bigrams has a long tail, the Top 100 bigrams are responsible for about 76% of all bigrams.
+
+## Wait a minute!
+### Aren't combos just mod-taps in disguise?
+		
+- Yes and No. Combos are a bit like mod-taps (or hold-taps in general), because timing is involved. However, rather than having to wait until the mod actuates, combos fire the moment all requisite keys are held down. This obviates the awkward and disruptive wait for mods. Further, by selecting rare bigrams for combos, there is virtually no chance of misfires. The default timing for combos probably works out of the box, but you may further reduce the already hardly perceptible delay by reducing the time window for combos. This is not possible for hold-taps, which have to set a high waiting time (thereby a large delay) to avoid setting off a hold behaviour when the finger lingers on the key for too long.
+
+### Isn't space+return the most common bigram for Python code?
+
+- This figure is greatly inflated by the automatic space insertions handled in most editors, i.e. no manual typing required, to maintain the important identations of Python code. In reality, I have never needed to type a space before or after an enter.
+
+
+## Effort model
+
+Inspired by Workman and Colemak-DH, I have came up with the following effort model.
+
+<img src="https://user-images.githubusercontent.com/16619392/147722505-37ec029c-ff89-4a5a-8c6e-f5f75fb0fd77.png" data-canonical-src="https://user-images.githubusercontent.com/16619392/147722505-37ec029c-ff89-4a5a-8c6e-f5f75fb0fd77.png" width="400" height="400" />
+
+I found that when holding down layer mods, key positions very close to the thumb (mostly the lower row) are less comfortable, due to needing to squeeze the hand together. I am fortunate to have been to play the piano, which has significantly improved my finger independence and strength. I don't find the pinky to be weaker than my other fingers (from smashing them octaves in quick succession), but this effort model is made with an untrained hand's strength and weaknesses in mind. My pinky is nonetheless my shortest finger, 
+
+There are two further negative experiences that I wanted to avoid. First, the switching of layers while typing a long string of characters should be minimized. Holding down the same layer mod and tapping two keys are more comfortable than having to release a mod and shift to the other hand. Switching back and forth rapidly is inefficient and extra work. This is why `( ) : '` are all on SYM, and `+ - =` are all on NUM. `(':')` is typed with thumb on SYM and `+=` is typed with thumb on NUM. Second, same thumb bigrams are bad. As thumbs are used for both layer mods and the keys space and enter, there may be occasions where e.g the thumb need to switch from pressing NUM to enter (and back). Suppose that the colon `:` is now on the NUM layer. `:` is very frequently followed by enter, which then requires a lifting of thumbs for each occurance. 
+
+## Frequency analysis
+
+#### Overal character frequency
+
+![overall_char_freq](https://user-images.githubusercontent.com/16619392/147722766-c9d89557-e6cf-4f83-9a81-eee5c4c74189.png)
+
+#### Overal symbol frequency
+
+![overall_symb_freq](https://user-images.githubusercontent.com/16619392/147722767-e9da5842-994e-4803-844d-389be5b6a860.png)
+
+#### Overal bigram frequency
+
+![bigrams](https://user-images.githubusercontent.com/16619392/147722776-49b1f2e5-df36-4717-9ec8-0c0fae184d5e.png)
+
+### Corpus
+#### Notebooks
+
+jupyter-naas/awesome-notebooks
+
+rossant/ipython-minibook
+
+rajathkmp/Python-Lectures
+
+eka-foundation/numerical-computing-is-fun
+
+ricardoduarte/python-for-developers
+
+jakevdp/PythonDataScienceHandbook 
+
+thomas-haslwanter/statsintro_python
+
+jdwittenauer/ipython-notebooks
+
+huggingface/notebooks
 
 
 
-![pnohty](https://user-images.githubusercontent.com/16619392/147568028-4b5557ac-73e8-4a1d-acb7-07c74aec92c0.png)
+#### Python files
+
+TheAlgorithms/Python
+
+mwaskom/seaborn
+
+numpy/numpy
+
+tensorflow/tensorflow
+
+django/django
+
+pallets/flask
+
+psf/requests
+
+
+
+#### Mixed
+
+google-research/google-research 
+
+rasbt/python-machine-learning-book-3rd-edition
+
+deepmind/deepmind-research
