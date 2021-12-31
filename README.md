@@ -49,7 +49,7 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 
 - Incorporates additional analysis specific to tiny split keyboards.
 - Space or Enter, which way does it swing? Avoids same thumb bigrams.
-- Common Python bigrams are respected and positioned to faciliate rolls.
+- Common Python bigrams are respected and positioned to facilitate rolls.
 
 ### Was that too fast? Time is not of the essence
 
