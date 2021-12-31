@@ -24,26 +24,31 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 
 ## Quick start: ease into it
 
-- `_` is on the right middle finger, typable with one hand on the NUM layer. Underscore is the most frequent symbol, just like E is the most frequent letter.
+- `_` is on the right middle finger, typable with one hand on the NUM layer. Underscore is the most frequent symbol, just like **E** is the most frequent letter.
 - `-` is above `_` (or that underscore is under it), typed with extended middle finger.
 - Parentheses, square and angle brackets, as well as curly braces are all in the middle column.
 - `( )` are on the left ring and middle fingers. associated symbols `:` and `*` sit just beside it.
 - On the right hand, there are the quotes `'`(on SYM) and `"` (on NUM). The semicolon rests on the pinky.
-- Equal `=` is on the key I, think **I**dentity
-- Vim navigation layer is actuated by thumb on NUM and pinky on O (their home positions!). "HJKL" as you expect for QWERTY.
-- Numbers are on a modified numpad, with 123 on the home row, 0 on thumb, and a `.` on the pinky for quicker access. `~` can mean approximately, so it is under `.` at the bottom left corner.
-- Hash `#` is on H. `+`, hash's lookalike, is on the same key.
-- If you draw a line from the NUM mod, at L you get `|`. If you draw a slanted line to Y, you get `/`
-- If you draw a line from the SYM mod, at P you get `$`, which has a straight line through it. If you draw a slanted line to W, you get `\`.
+- Equal `=` is on the key **I**, think **I**dentity.
+- Vim navigation layer is actuated by thumb on NUM and pinky on **O** (their home positions!). "**HJKL**" as you expect for QWERTY.
+- Numbers are on a modified numpad, with 321 on the home row, 0 on thumb, and a `.` on the pinky for quicker access. `~` can mean approximately, so it is under `.` at the bottom left corner.
+
+![pnohty@4x](https://user-images.githubusercontent.com/16619392/147719604-40cfd0fa-5fde-4c3e-927e-486d6c296122.png)
+
+
+- Hash `#` is on **H**. `+`, hash's lookalike, is on the same key.
+- If you draw a line from the **NUM** mod, at **L** you get `|`. If you draw a slanted line to **Y**, you get `/`
+- If you draw a line from the **SYM** mod, at **P** you get `$`, which has a straight line through it. If you draw a slanted line to **W**, you get `\`.
 - For punctuations, `?` is on `,` and `!` is on `.`. The question mark can imply an anticipated response, while an exclamation mark is more finished. This hopefully mirrors `,` and `.`.
-- `%` and `&` remain paired with their numbers. `@` is below 2.
+- `%` and `&` remain paired with their numbers. `@` is below **2**.
 - ` ` ` gets the better remaining spot on X. `^` takes the L.
 
 ## Design principles
 ### It should feel real good! Most comfortable positions reserved for frequenters
 
 - Incorporates additional analysis specific to tiny split keyboards.
-- Space or Enter, which way does it swing? Common bigrams are respected.
+- Space or Enter, which way does it swing? Avoids same thumb bigrams.
+- Common Python bigrams are respected and positioned to faciliate rolls.
 
 ### Was that too fast? Time is not of the essence
 
