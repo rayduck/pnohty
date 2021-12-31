@@ -42,7 +42,7 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - If you draw a line from the **SYM** mod, at **P** you get `$`, which has a straight line through it. If you draw a slanted line to **W**, you get `\`.
 - For punctuations, `?` is on `,` and `!` is on `.`. The question mark can imply an anticipated response, while an exclamation mark is more finished. This hopefully mirrors `,` and `.`.
 - `%` and `&` remain paired with their numbers. `@` is below **2**.
-- ` ` ` gets the better remaining spot on X. `^` takes the L.
+- `` ` `` gets the better remaining spot on X. `^` takes the L.
 
 ## Design principles
 ### It should feel real good! Most comfortable positions reserved for frequenters
