@@ -75,13 +75,13 @@ row mods, if you would like to try and make it work.
 ### Hasn't Precondition's article ruled out alternatives to home row mods?
 
 - Not quite. It was said that sticky combo home row mods are more prone than home row mods for misfires. But misfires are next to impossible for uncommon combination of letters that are nonetheless easy to type!
-
 - Take W+F, the combo for Shift, for example. How many words containing WF or FW can you think of?
 - It may just take you quite a while, since it is a very rare bigram.
 - There are the words awful, lawful, newfound, halfway, etc.
 - [Bigram based on google corpus](https://gist.github.com/lydell/c439049abac2c9226e53) and my testing reveals that W+F ranks 259 out of 351 total 2 letter combinations. For any two letters typed, it will be a combination of W and F 0.00000018% of the time! 
 - The number is 0.00000027% for the Python corpus, presumably because some acronyms may involve fw, e.g. firewall, firmware. 
-- X+C is ranked 193 out of 351. Note that distribution of bigrams has a long tail, the Top 100 bigrams are responsible for about 76% of all bigrams.
+- Note that distribution of bigrams has a long tail, the Top 100 bigrams are responsible for about 76% of all bigrams.
+- X+C is ranked 193 out of 351. W+P, my preference of combo for Q, is ranked 255.
 
 ## Wait a minute!
 ### Aren't combos just mod-taps in disguise?
@@ -95,6 +95,10 @@ row mods, if you would like to try and make it work.
 ### Isn't space+return the most common bigram for Python code?
 
 - This figure is greatly inflated by the automatic space insertions handled in most editors, i.e. no manual typing required, to maintain the important identations of Python code. In reality, I have never needed to type a space before or after an enter.
+
+### The number layout is bizzare!
+
+- Yes. But numbers are not priortized in Pnohty. Their occurance in python code is fairly low. 
 
 
 ## Effort model
@@ -124,48 +128,28 @@ There are two further negative experiences that I wanted to avoid. First, the sw
 ### Corpus
 #### Notebooks
 
-jupyter-naas/awesome-notebooks
-
-rossant/ipython-minibook
-
-rajathkmp/Python-Lectures
-
-eka-foundation/numerical-computing-is-fun
-
-ricardoduarte/python-for-developers
-
-jakevdp/PythonDataScienceHandbook 
-
-thomas-haslwanter/statsintro_python
-
-jdwittenauer/ipython-notebooks
-
-huggingface/notebooks
-
-
+- jupyter-naas/awesome-notebooks
+- rossant/ipython-minibook
+- rajathkmp/Python-Lectures
+- eka-foundation/numerical-computing-is-fun
+- ricardoduarte/python-for-developers
+- jakevdp/PythonDataScienceHandbook 
+- thomas-haslwanter/statsintro_python
+- jdwittenauer/ipython-notebooks
+- huggingface/notebooks
 
 #### Python files
 
-TheAlgorithms/Python
-
-mwaskom/seaborn
-
-numpy/numpy
-
-tensorflow/tensorflow
-
-django/django
-
-pallets/flask
-
-psf/requests
-
-
+- TheAlgorithms/Python
+- mwaskom/seaborn
+- numpy/numpy
+- tensorflow/tensorflow
+- django/django
+- pallets/flask
+- psf/requests
 
 #### Mixed
 
-google-research/google-research 
-
-rasbt/python-machine-learning-book-3rd-edition
-
-deepmind/deepmind-research
+- google-research/google-research 
+- rasbt/python-machine-learning-book-3rd-edition
+- deepmind/deepmind-research
