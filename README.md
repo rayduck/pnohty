@@ -12,6 +12,23 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - Vim navigation layer, activated with the right thumb and pinky on home positions.
 - Leaves 12 keys unassigned for your favourite shortcuts. 4 of these positions are quite nice.
 
+## Quick start: ease into it
+
+- `_` is on the right middle finger, typable with one hand on the NUM layer. Underscore is the most frequent symbol, just like E is the most frequent letter.
+- `-` is above `_` (or that underscore is under it), typed with extended middle finger.
+- Parentheses, square and angle brackets, as well as curly braces are all in the middle column.
+- `( )` are on the left ring and middle fingers. associated symbols `:` and `*` sit just beside it.
+- On the right hand, there are the quotes `'`(on SYM) and `"` (on NUM). The semicolon rests on the pinky.
+- Equal `=` is on the key I, think **I**dentity
+- Vim navigation layer is actuated by thumb on NUM and pinky on O (their home positions!). "HJKL" as you expect for QWERTY.
+- Numbers are on a modified numpad, with 123 on the home row, 0 on thumb, and a `.` on the pinky for quicker access. `~` can mean approximately, so it is under `.` at the bottom left corner.
+- Hash `#` is on H. `+`, hash's lookalike, is on the same key.
+- If you draw a line from the NUM mod, at L you get `|`. If you draw a slanted line to Y, you get `/`
+- If you draw a line from the SYM mod, at P you get `$`, which has a straight line through it. If you draw a slanted line to W, you get `\`.
+- For punctuations, `?` is on `,` and `!` is on `.`. The question mark can imply an anticipated response, while an exclamation mark is more finished. This hopefully mirrors `,` and `.`.
+- `%` and `&` remain paired with their numbers. `@` is below 2.
+- ` ` ` gets the better remaining spot on X. `^` takes the L.
+
 ## Design principles
 ### It should feel real good! Most comfortable positions reserved for frequenters
 
@@ -43,31 +60,37 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 ## Hesitant to join in the fun?
 ### Why no homerow mods?
 
-- See [Callum Oakley](https://github.com/qmk/qmk_firmware/tree/master/users/callum)
-- See [precondition](https://precondition.github.io/home-row-mods)'s definitive guide on home 
-row mods, if you would like to make it work.
+- Some popular key layouts such as the [Miryoku](https://github.com/manna-harbour/miryoku) uses homerow mods. But you will often hear of complaints about them being fiddly and error prone.
+- See [Callum Oakley](https://github.com/qmk/qmk_firmware/tree/master/users/callum) for an example of why some user may not like homerow mods or mod-taps in general
+- Do take a gander at [precondition](https://precondition.github.io/home-row-mods)'s definitive guide on home 
+row mods, if you would like to try and make it work.
+- But I prefer wearing clothes that look good without me having to measure and tailor it to every aspect of my body and appendages.
 
-### Why no Callum mods?
+### Why no Callum-style mods?
 
-- Callum style mods obviates the use of mod-tap, thats great!
+- Callum-style mods obviates the use of mod-taps, that's great!
 - However, mods take up 4 of the best spots on each layer.
 - That's 8 symbols evicted from the homerow!
 
-### Hasn't Precondition ruled out alternatives to home row mods?
+### Hasn't Precondition's article ruled out alternatives to home row mods?
 
 - Not quite. It was said that sticky combo home row mods are more prone than home row mods for misfires. But misfires are next to impossible for uncommon combination of letters that are nonetheless easy to type!
 
 - Take W+F, the combo for Shift, for example. How many words containing WF or FW can you think of?
 - It may just take you quite a while, since it is a very rare bigram.
 - There are the words awful, lawful, newfound, halfway, etc.
-- [Bigram based on google corpus](https://gist.github.com/lydell/c439049abac2c9226e53) and my testing reveals that W+F ranks 259 out of 351 total 2 letter combinations. For any two letters typed, it will be W and F 0.00000018% of the time! 
+- [Bigram based on google corpus](https://gist.github.com/lydell/c439049abac2c9226e53) and my testing reveals that W+F ranks 259 out of 351 total 2 letter combinations. For any two letters typed, it will be a combination of W and F 0.00000018% of the time! 
 - The number is 0.00000027% for the Python corpus, presumably because some acronyms may involve fw, e.g. firewall, firmware. 
 - X+C is ranked 193 out of 351. Note that distribution of bigrams has a long tail, the Top 100 bigrams are responsible for about 76% of all bigrams.
 
 ## Wait a minute!
 ### Aren't combos just mod-taps in disguise?
 		
-- Yes and No. Combos are a bit like mod-taps (or hold-taps in general), because timing is involved. However, rather than having to wait until the mod actuates, combos fire the moment all requisite keys are held down. This obviates the awkward and disruptive wait for mods. Further, by selecting rare bigrams for combos, there is virtually no chance of misfires. The default timing for combos probably works out of the box, but you may further reduce the already hardly perceptible delay by reducing the time window for combos. This is not possible for hold-taps, which have to set a high waiting time (thereby a large delay) to avoid setting off a hold behaviour when the finger lingers on the key for too long.
+- Yes and No. Combos are a bit like mod-taps (or hold-taps in general), because timing is involved. 
+- However, rather than having to wait until the mod actuates, combos fire the moment all requisite keys are pressed down. This obviates the awkward and flow-disrupting wait for mods. 
+- Further, by selecting rare bigrams for combos, there is little chance of misfires. 
+- The default timing for combos probably works out of the box, but you may further reduce the already hardly perceptible delay by reducing the time window for combos. 
+- This is not possible for hold-taps, which have to set a high waiting time (thereby a large delay) to avoid setting off a hold behaviour when the finger lingers on the key for too long.
 
 ### Isn't space+return the most common bigram for Python code?
 
