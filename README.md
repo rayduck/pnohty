@@ -2,7 +2,17 @@
 
 # Pnohty
 
+**naw** · tee
+
 An optimized keyboard layout for people who like Python, Vim, and tiny split keyboards ;)
+
+
+
+- [Quick start](#quick-start-ease-into-it)
+- [Design principles, or how to be Pnohty ;)](#design-principles)
+- [FAQ](#hesitant-to-join-in-the-fun)
+- [Effort model](#effort-model)
+- [Frequency analysis](#frequency-analysis)
 
 ## Features
 
@@ -98,7 +108,8 @@ row mods, if you would like to try and make it work.
 
 ### The number layout is bizzare!
 
-- Yes. But numbers are not priortized in Pnohty. Their occurance in python code is fairly low. 
+- Yes. Numbers are not priortized in Pnohty; their occurance in python code is fairly low. 
+- Normally in a right hand side numpad, numbers are written 123. In a mirrored left hand side numpad though, I figure that numbers are written 321.
 
 
 ## Effort model
