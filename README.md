@@ -74,6 +74,13 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - With more keys, some of the combo mods can move onto extra thumb keys.
 
 ## Hesitant to join in the fun?
+
+### Why is enter on the right thumb?
+
+- If you use the mouse with the right hand, then left thumb on space should be well practiced.
+- As opposed to prose, code has very short lines. A good practice is to limit lines to 80 characters, but often lines are under 25 characters. The frequency of return is thus a lot higher for programmers. This is further increased with command line usage and Vim.
+- I also happen to enjoy outliners, especially [Logseq](https://logseq.com/). Enter usage is high, as each thought is broken down into bitsized components.
+
 ### Why no homerow mods?
 
 - Some popular key layouts such as the [Miryoku](https://github.com/manna-harbour/miryoku) uses homerow mods. But you will often hear of complaints about them being fiddly and error prone.
@@ -84,7 +91,7 @@ row mods, if you would like to try and make it work.
 
 ### Why no Callum-style mods?
 
-- Callum-style mods obviates the use of mod-taps, that's great!
+- Callum-style or [Seniply](https://stevep99.github.io/seniply/)-style mods obviates the use of mod-taps, that's great!
 - However, mods take up 4 of the best spots on each layer.
 - That's 8 symbols evicted from the homerow!
 
@@ -170,3 +177,17 @@ There are two further negative experiences that I wanted to avoid. First, the sw
 - google-research/google-research 
 - rasbt/python-machine-learning-book-3rd-edition
 - deepmind/deepmind-research
+
+## Additional keyboard layout reading material
+
+- [Colemak-DH](https://colemakmods.github.io/mod-dh/)
+- [T34](https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/), which also includes several revisions.
+- [Kombol](https://github.com/skychil/kombol), which is a lot of much combos.
+- [Hands Down](https://sites.google.com/alanreiser.com/handsdown/home/design-notes), an interesting read.
+
+## Practice tools
+
+- [Monkeytype](https://monkeytype.com/)
+- [Typelit](https://www.typelit.io/), type literature.
+- [typing.io](https://typing.io/)
+- [speedcoder.net](https://www.speedcoder.net/)
