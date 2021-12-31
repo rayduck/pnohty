@@ -81,6 +81,12 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - As opposed to prose, code has very short lines. A good practice is to limit lines to 80 characters, but often lines are under 25 characters. The frequency of return is thus a lot higher for programmers. This is further increased with command line usage and Vim.
 - I also happen to enjoy outliners, especially [Logseq](https://logseq.com/). Enter usage is high, as each thought is broken down into bitsized components.
 
+### Why have you butchered the Colemak base layer with the removal of semicolon and slash?
+
+- Forward slash `/` and semicolon `;` have been removed from the base layer, because those position are uncomfortable.
+- While neither too common nor too uncommon, their positions require pinky movement. They have been moved to more comfortable spots on the other layers.
+- The position of the semicolon key is not even used. On the other side, the very rare Q key sits on the corner, but can be replaced with a combo (I recommend W + P)
+
 ### Why no homerow mods?
 
 - Some popular key layouts such as the [Miryoku](https://github.com/manna-harbour/miryoku) uses homerow mods. But you will often hear of complaints about them being fiddly and error prone.
