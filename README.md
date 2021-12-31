@@ -49,13 +49,13 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 
 - Incorporates additional analysis specific to tiny split keyboards.
 - Space or Enter, which way does it swing? Avoids same thumb bigrams.
-- Common Python bigrams are respected and positioned to facilitate rolls.
+- Common Python bigrams - are positioned together and rolled together.
 
 ### Was that too fast? Time is not of the essence
 
 - Eschew functionalities which require precise timings (or waiting) that may otherwise misfire.
-- No homerow mods!
-- Low frequency bigrams in comfortable positions are used for combos instead.
+- No homerow mods! They turn me off.
+- Middle and ring finger combos to the rescue! Press it as fast as you like and see results immediately.
 
 ### **P**ython and **V**im: a match made in heaven
 
