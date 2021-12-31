@@ -21,7 +21,7 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - Combos for mods. No fiddly settings and timing issues with homerow mods. No flow breaking holds with autoshift or hold-taps in general. 
 - ...but not so many combos that it feels like dance dance revolution. Only 3–6 combos in comfortable positions.
 - Vim navigation layer, activated with the right thumb and pinky on home positions.
-- Leaves 12 keys unassigned for your favourite shortcuts. 4 of these positions are quite nice.
+- Leaves 12 positions unassigned for your favourite shortcuts. 4 of these are quite nice.
 
 ## Quick start: ease into it
 
@@ -44,7 +44,7 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - `%` and `&` remain paired with their numbers. `@` is below **2**.
 - `` ` `` gets the better remaining spot on X. `^` takes the L.
 
-## Design principles
+## Design principles, or how to be Pnohty ;)
 ### It should feel real good! Most comfortable positions reserved for frequenters
 
 - Incorporates additional analysis specific to tiny split keyboards.
