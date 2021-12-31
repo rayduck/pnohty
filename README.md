@@ -18,7 +18,8 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 
 - 3X5+3, but compatible with 34 key (2 thumb keys each side) and even 32 keys (no top row pinky keys, W+P=Q).
 - Coding usage priorised. Symbols and numbers are within reach. Bigrams are easy to roll.
-- Combos for mods. No fiddly settings and timing issues with homerow mods. No flow breaking holds with autoshift or hold-taps in general.
+- Combos for mods. No fiddly settings and timing issues with homerow mods. No flow breaking holds with autoshift or hold-taps in general. 
+- ...but not so many combos that it feels like dance dance revolution. Only 3–6 combos in comfortable positions.
 - Vim navigation layer, activated with the right thumb and pinky on home positions.
 - Leaves 12 keys unassigned for your favourite shortcuts. 4 of these positions are quite nice.
 
