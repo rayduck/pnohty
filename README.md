@@ -112,6 +112,14 @@ row mods, if you would like to try and make it work.
 - Note that distribution of bigrams has a long tail, the Top 100 bigrams are responsible for about 76% of all bigrams.
 - X+C is ranked 193 out of 351. W+P, my preference of combo for Q, is ranked 255.
 
+### I don't code in Python, is Pnohty still for me?
+
+- While Pnohty is optimized for Python, it is quite suitable for many other languages and use cases.
+- Have a look at [character distributions](http://xahlee.info/comp/computer_language_char_distribution.html) or programming languages
+- Braces are more common than Brackets in a lot of languages. Feel free to swap them!
+- Switch `;` and `:` for Java or C
+- Switch `:` and `$` for PHP (but maybe you like pain, so that's up to you)
+
 ## Wait a minute!
 ### Aren't combos just mod-taps in disguise?
 		
