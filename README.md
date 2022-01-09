@@ -1,6 +1,7 @@
-![pnohty@4x](https://user-images.githubusercontent.com/16619392/147719604-40cfd0fa-5fde-4c3e-927e-486d6c296122.png)
+![pnohty-1 1](https://user-images.githubusercontent.com/16619392/148699091-e2d9e1d9-dce3-4a6b-a186-fb44f8c72f3d.png)
 
-# Pnohty
+
+# Pnohty 1.1
 
 **naw** · tee
 
@@ -22,6 +23,13 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - ...but not so many combos that it feels like dance dance revolution. Only 3–6 combos in comfortable positions.
 - Vim navigation layer, activated with the right thumb and pinky on home positions.
 - Leaves 12 positions unassigned for your favourite shortcuts. 4 of these are quite nice.
+
+## Patchnotes
+
+### 1.1
+- rearranged the numpad so that numbers increase toward the right, which is more familiar. (321 -> 123)
+- swapped the CMD and OPT thumb combos so CMD-C/V can now be done with just the left hand while the right is occupied with the mouse or trackpad.
+- added a logo
 
 ## Quick start: ease into it
 
