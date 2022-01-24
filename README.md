@@ -1,7 +1,7 @@
-![pnohty-1 1](https://user-images.githubusercontent.com/16619392/148699091-e2d9e1d9-dce3-4a6b-a186-fb44f8c72f3d.png)
+![pnohty-1 2](https://user-images.githubusercontent.com/16619392/150713551-243510f7-cc91-4e50-acc5-41118b8f07a5.png)
 
 
-# Pnohty 1.1
+# Pnohty 1.2
 
 **naw** · tee
 
@@ -17,19 +17,25 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 
 ## Features
 
-- 3X5+3, but compatible with 34 key (2 thumb keys each side) and even 32 keys (no top row pinky keys, W+P=Q).
+- 3X5+2, but compatible with 32 keys (no top row pinky keys, W+P=Q).
 - Coding usage priorised. Symbols and numbers are within reach. Bigrams are easy to roll.
 - Combos for mods. No fiddly settings and timing issues with homerow mods. No flow breaking holds with autoshift or hold-taps in general. 
 - ...but not so many combos that it feels like dance dance revolution. Only 3–6 combos in comfortable positions.
 - Vim navigation layer, activated with the right thumb and pinky on home positions.
-- Leaves 12 positions unassigned for your favourite shortcuts. 4 of these are quite nice.
+- Leaves 12 positions unassigned for your favourite shortcuts. 4 of these are quite nice. Otherwise, the inner columns are not used.
 
 ## Patchnotes
 
+### 1.2
+- Updated combo keys to include UY.
+- Now offers a few options on the combo keys. You may now be Pnohty with a different key on thumb (shift, backspace, space) with a matching set of combos.
+- Is now by default a 34-key layout.
+- Switched around single and double quotes.
+
 ### 1.1
-- rearranged the numpad so that numbers increase toward the right, which is more familiar. (321 -> 123)
-- swapped the CMD and OPT thumb combos so CMD-C/V can now be done with just the left hand while the right is occupied with the mouse or trackpad.
-- added a logo
+- Rearranged the numpad so that numbers increase toward the right, which is more familiar. (321 -> 123)
+- Swapped the CMD and OPT thumb combos so CMD-C/V can now be done with just the left hand while the right is occupied with the mouse or trackpad.
+- Added a logo.
 
 ## Quick start: ease into it
 
@@ -37,7 +43,7 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - `-` is above `_` (or that underscore is under it), typed with extended middle finger.
 - Parentheses, square and angle brackets, as well as curly braces are all in the middle column.
 - `( )` are on the left ring and middle fingers. associated symbols `:` and `*` sit just beside it.
-- On the right hand, there are the quotes `'`(on SYM) and `"` (on NUM). The semicolon rests on the pinky.
+- On the right hand, there are the quotes `'`(on NUM) and `"` (on SYM). The semicolon rests on the pinky.
 - Equal `=` is on the key **I**, think **I**dentity.
 - Vim navigation layer is actuated by thumb on NUM and pinky on **O** (their home positions!). "**HJKL**" as you expect for QWERTY.
 - Numbers are on a modified numpad, with 321 on the home row, 0 on thumb, and a `.` on the pinky for quicker access. `~` can mean approximately, so it is under `.` at the bottom left corner.
@@ -49,8 +55,29 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - If you draw a line from the **NUM** mod, at **L** you get `|`. If you draw a slanted line to **Y**, you get `/`
 - If you draw a line from the **SYM** mod, at **P** you get `$`, which has a straight line through it. If you draw a slanted line to **W**, you get `\`.
 - For punctuations, `?` is on `,` and `!` is on `.`. The question mark can imply an anticipated response, while an exclamation mark is more finished. This hopefully mirrors `,` and `.`.
-- `%` and `&` remain paired with their numbers. `@` is below **2**.
+- `%` remain paired with their numbers. `@` is below **2**.
 - `` ` `` gets the better remaining spot on X. `^` takes the L.
+
+## Alternative combo layouts
+
+- There are a few alternatives to having the enter on thumb.
+- The combos can be swapped to accommodate all.
+- 
+![combos](https://user-images.githubusercontent.com/16619392/150714024-4ee921ce-ff85-4e32-8ae0-75dfeb0c7f72.png)
+
+## Numpad+
+
+- A graceful compromise between cognitive load and ergonomics.
+- the numpad shifted up by one row, with 789 wrapping over to the bottom row.
+
+![nums](https://user-images.githubusercontent.com/16619392/150714417-a7b0a6ba-82f1-4650-92e0-6e42360f378a.png)
+
+## Vim nav
+
+- Activated with the hand on the homerow
+- Alternatively, use an inverted-T arrow layout
+
+![1 2-nav-keys](https://user-images.githubusercontent.com/16619392/150714492-6698d1db-5873-4888-af92-46e744878f4d.png)
 
 ## Design principles, or how to be Pnohty ;)
 ### It should feel real good! Most comfortable positions reserved for frequenters
