@@ -62,7 +62,7 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 
 - There are a few alternatives to having the enter on thumb.
 - The combos can be swapped to accommodate all.
-- 
+
 ![combos](https://user-images.githubusercontent.com/16619392/150714024-4ee921ce-ff85-4e32-8ae0-75dfeb0c7f72.png)
 
 ## Numpad+
