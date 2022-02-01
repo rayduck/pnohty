@@ -14,6 +14,7 @@ An optimized keyboard layout for people who like Python, Vim, and tiny split key
 - [FAQ](#hesitant-to-join-in-the-fun)
 - [Effort model](#effort-model)
 - [Frequency analysis](#frequency-analysis)
+- [My zmk-config](https://github.com/rayduck/zmk-config)
 
 ## Features
 
